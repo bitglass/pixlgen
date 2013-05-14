@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="PiXLGEN : BitGlass's Game Development Kit" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>PiXLGEN</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/bitglass/pixlgen">View on GitHub</a>
+
+          <h1 id="project_title">PiXLGEN</h1>
+          <h2 id="project_tagline">BitGlass's Game Development Kit</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/bitglass/pixlgen/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/bitglass/pixlgen/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to PiXLGEN.</h3>
+
+<p>PiXLGEN (Pixel Generator, or pixlgen) is a brand new, fully featured game engine built by BitGlass. Today, it powers BitGlass's very own game, <a href="https://paticon.com">Paticon</a>. PiXLGEN is still in development, but then again, like everything else, it always will be. PiXLGEN currently targets Windows, Mac OS X (with web environments for both), iOS and Android (our next goal is Windows Phone). So that means support for both DirectX (9.0 &amp; 11) and OpenGL. And the best part is that everything is totally native.</p>
+
+<h2>PiXLGEN's NOT A GAME ENGINE (PNAGE)</h2>
+
+<p>I admit, that was a lame attempt at a recursive acronym. The truth is, PiXLGEN isn't just a game engine. It's 4 seperate components, that <em>together</em>, create a rather nicley featured and furnished game enviorment. What are they?</p>
+
+<ol>
+<li>
+<strong>PiXLCode</strong> - is the recommeneded "scripting" language for use with PiXLGEN. You aren't required to use it though. Syntax wise, it's almost identical to Java. Except for that they have nothing in common. Unlike the other components, PiXLCode is totally separate and you can create regular applications with it if you want to. Why would you? You'll see in a bit.</li>
+<li>
+<strong>PiXLSpace</strong> - is the entire world. And everything in it. This include the world-space, all of 3D objects (i.e. the meshes), the 2D planes, the environment, the cameras, sound sources and so on.</li>
+<li>
+<strong>PiXLDraw</strong> - is the rendering pipeline. It does the mapping, texturing, shading, and all of the other necessary things to render a frame. It is very tightly integrated with PiXLSpace and has support for native Compute Shaders on the GPU.</li>
+<li>
+<strong>PiXLPlay</strong> - is the runtime environment. Pure PiXLCode does not require it, as it compiles into native binaries, but it provides some nice stuff like NVidia PhysX, Time, a GUI toolkit and more. </li>
+</ol><p>Now, each of these components has their own repo. PiXLGEN just ties everything together really nicely <em>and</em> include a pretty awesome editor. More about that in a moment.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">PiXLGEN maintained by <a href="https://github.com/bitglass">bitglass</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
