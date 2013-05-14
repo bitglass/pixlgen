@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="PiXLGEN : BitGlass's Game Development Kit" />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <title>PiXLGEN</title>
+    <title>PiXLGEN by bitglass</title>
   </head>
 
   <body>
+    <header>
+      <div class="inner">
+        <h1>PiXLGEN</h1>
+        <h2>BitGlass's Game Development Kit</h2>
+        <a href="https://github.com/bitglass/pixlgen" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/bitglass/pixlgen">View on GitHub</a>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h2>Welcome to PiXLGEN.</h2>
 
-          <h1 id="project_title">PiXLGEN</h1>
-          <h2 id="project_tagline">BitGlass's Game Development Kit</h2>
+<p>PiXLGEN (Pixel Generator, or pixlgen) is a brand new, fully featured game engine currently in development by BitGlass. Today, it powers BitGlass's very own game, <a href="https://paticon.com">Paticon</a>. PiXLGEN currently targets Windows, Mac OS X (with web environments for both), iOS and Android (our next goal is Windows Phone). So that means support for both DirectX (9.0 &amp; 11) and OpenGL. And the best part is that everything is totally native.</p>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/bitglass/pixlgen/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/bitglass/pixlgen/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+<h3>A quick introduction</h3>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to PiXLGEN.</h3>
+<p>The truth is, PiXLGEN isn't just a game engine. It's 4 seperate components, that <em>together</em>, create a rather nicley featured and furnished game enviorment. Want to meet them?</p>
 
-<p>PiXLGEN (Pixel Generator, or pixlgen) is a brand new, fully featured game engine built by BitGlass. Today, it powers BitGlass's very own game, <a href="https://paticon.com">Paticon</a>. PiXLGEN is still in development, but then again, like everything else, it always will be. PiXLGEN currently targets Windows, Mac OS X (with web environments for both), iOS and Android (our next goal is Windows Phone). So that means support for both DirectX (9.0 &amp; 11) and OpenGL. And the best part is that everything is totally native.</p>
-
-<h2>PiXLGEN's NOT A GAME ENGINE (PNAGE)</h2>
-
-<p>I admit, that was a lame attempt at a recursive acronym. The truth is, PiXLGEN isn't just a game engine. It's 4 seperate components, that <em>together</em>, create a rather nicley featured and furnished game enviorment. What are they?</p>
+<h4>The Components</h4>
 
 <ol>
 <li>
@@ -45,22 +44,29 @@
 <li>
 <strong>PiXLSpace</strong> - is the entire world. And everything in it. This include the world-space, all of 3D objects (i.e. the meshes), the 2D planes, the environment, the cameras, sound sources and so on.</li>
 <li>
-<strong>PiXLDraw</strong> - is the rendering pipeline. It does the mapping, texturing, shading, and all of the other necessary things to render a frame. It is very tightly integrated with PiXLSpace and has support for native Compute Shaders on the GPU.</li>
+<strong>PiXLDraw</strong> - is the rendering pipeline. It does the mapping, texturing, shading, and all of the other necessary things to render a frame. It is very tightly integrated with PiXLSpace and has support for native Compute Shaders on the GPU!</li>
 <li>
 <strong>PiXLPlay</strong> - is the runtime environment. Pure PiXLCode does not require it, as it compiles into native binaries, but it provides some nice stuff like NVidia PhysX, Time, a GUI toolkit and more. </li>
-</ol><p>Now, each of these components has their own repo. PiXLGEN just ties everything together really nicely <em>and</em> include a pretty awesome editor. More about that in a moment.</p>
-      </section>
+</ol><p>Now, each of these components has their own repo and is treated as a separate project. PiXLGEN just ties everything together really nicely <em>and</em> include a pretty awesome editor. More about that in a moment.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/bitglass/pixlgen/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/bitglass/pixlgen/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/bitglass/pixlgen"></a> is maintained by <a href="https://github.com/bitglass">bitglass</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">PiXLGEN maintained by <a href="https://github.com/bitglass">bitglass</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+  
   </body>
 </html>
